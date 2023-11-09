@@ -1,0 +1,29 @@
+{
+    "name": "Microbit Major Project",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-kitronik-motor-driver": "github:kitronikltd/pxt-kitronik-motor-driver#v0.0.8",
+        "BitBot": "github:4tronix/bitbot#v1.5.12",
+        "k8": "github:k8robotics/pxt-k8#v1.1.0",
+        "microbit-robot": "github:microsoft/microbit-robot#v2.5.30"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
